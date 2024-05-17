@@ -1,0 +1,84 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  .table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 12px; /* Increase padding for better spacing */
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    color: #333; /* Header text color */
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e2e2e2; /* Change background color on hover */
+  }
+
+  .table-container {
+    max-height: 300px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  .table {
+    width: 80%; /* Set the width to 80% of its container */
+  }
+  
+
+  .table-container {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .table tbody td:last-child {
+    border-bottom: none;
+  }
+
+  .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-info {
+    background-color: #5bc0de;
+    color: #fff;
+  }
+
+  .btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+  }
+
+  body{
+    background-color: rgb(106, 17, 76);
+}
+

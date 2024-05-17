@@ -1,0 +1,16 @@
+<p>child-component1 works!</p>
+<button (click)="getMethod()">click</button>
+<div *ngIf="data">
+    <table>
+        <tr>  <th>id</th>
+            <th>name</th>
+            <th>price</th>
+        </tr>
+      
+        <tr *ngFor="let m of data">
+            <td>{{m.id}}</td>
+            <td>{{m.title}}</td>
+            <td>{{m.price}}</td>
+        </tr>
+    </table>
+</div>

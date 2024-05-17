@@ -1,0 +1,30 @@
+.active{
+
+    background-color: black;
+    color: cadetblue;
+    font-size: large;
+}
+ul li{
+    list-style:none;
+    font-size: large;
+}
+ul a{
+    text-decoration: null;
+    font-size: large;
+}
+ul{
+    display: flex;
+    justify-content:flex-start;
+    background-color: black;
+    font-size: large;
+}
+a{
+    line-height: 50px;
+    color:rgb(242, 242, 248);
+    margin: 0 20px;
+    font-size: large;
+}
+
+body{
+    background-color: rgb(106, 17, 76);
+}
